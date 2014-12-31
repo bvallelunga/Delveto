@@ -1,13 +1,6 @@
 #!/bin/bash
 
-# Stop & Remove Old Containers
-docker stop $(docker ps -a -q) 2> /dev/null
-docker rm $(docker ps -a -q) 2> /dev/null
-
-# Remove Old Images
-docker rmi bvallelunga/delveto 2> /dev/null
-
-# Build New Images
+# Build New Image
 docker build -t bvallelunga/delveto .
 
 # Run New Images

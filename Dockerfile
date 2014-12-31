@@ -3,10 +3,10 @@ MAINTAINER Brian Vallelunga <vallelungabrian@gmail.com>
 
 RUN npm install -g sails
 
-RUN mkdir /server
-WORKDIR /server
-COPY . /server/
+RUN mkdir /delveto
+WORKDIR /delveto
+COPY . /delveto/
 RUN npm install
 
 EXPOSE 1337
-CMD ["bash", "/server/app.js"]
+CMD ["bash", "/delveto/app.js"]
