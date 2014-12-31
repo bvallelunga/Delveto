@@ -11,3 +11,8 @@ bash scripts/deploy.sh
 ``` bash
 bash scripts/deploy.sh prod
 ```
+
+**Development & Production Servers**
+``` bash
+bash scripts/deploy.sh both
+```
