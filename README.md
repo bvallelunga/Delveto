@@ -25,12 +25,12 @@ about the folder structure.
 
 **Deploying Docker Locally**
 ``` bash
-bash scripts/local.deploy.sh [ dev | prod | both ]
+bash scripts/local.deploy.sh [dev | prod | both]
 ```
 
 **Redeploying Docker Locally**
 ``` bash
-bash scripts/local.redeploy.sh [ dev | prod | both ]
+bash scripts/local.redeploy.sh [dev | prod | both]
 ```
 
 **Deploying Docker on AWS EC2**
