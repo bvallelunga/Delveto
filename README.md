@@ -1,6 +1,6 @@
 **PLEASE MAKE SURE [DOCKER](https://docs.docker.com/installation/#installation) IS INSTALLED!**
 
-### Deploy Docker
+## Deploy Docker
 
 **Development Server**
 ``` bash
