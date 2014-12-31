@@ -23,17 +23,12 @@ about the folder structure.
 * **views:**          contains all EJS views for rendering dynamic pages
 
 
-**Deploying Docker Locally**
-``` bash
-bash scripts/local.deploy.sh [dev | prod | both]
-```
+DelveTo can be deployed using docker both locally and to aws. When deploying
+locally you can create both development *(port 1337)* & production *(port 80)* containers. 
+On aws the environment is set to production. 
 
-**Redeploying Docker Locally**
-``` bash
-bash scripts/local.redeploy.sh [dev | prod | both]
-```
+* Deploying locally `bash scripts/local.deploy.sh [dev | prod | both]`
 
-**Deploying Docker on AWS EC2**
-``` bash
-bash scripts/aws.deploy.sh
-```
+* Redeploying locally `bash scripts/local.redeploy.sh [dev | prod | both]`
+
+* Deploying on AWS `bash scripts/aws.redeploy.sh`
